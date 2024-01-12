@@ -14,15 +14,15 @@ const protect_keylist = [
   "password",
 ]
 
-let index_html = "https://crazypeace.github.io/Url-Shorten-Worker/" + config.theme + "/index.html"
-let no_ref_html = "https://crazypeace.github.io/Url-Shorten-Worker/no-ref.html"
+let index_html = "https://qspidy.github.io/Url-Shorten-Worker/" + config.theme + "/index.html"
+let no_ref_html = "https://qspidy.github.io/Url-Shorten-Worker/no-ref.html"
 
 const html404 = `<!DOCTYPE html>
   <html>
   <body>
     <h1>404 Not Found.</h1>
     <p>The url you visit is not found.</p>
-    <p> <a href="https://github.com/crazypeace/Url-Shorten-Worker/" target="_self">Fork me on GitHub</a> </p>
+    <p> <a href="https://github.com/qspidy/Url-Shorten-Worker/" target="_self">Fork me on GitHub</a> </p>
   </body>
   </html>`
 
@@ -259,7 +259,7 @@ async function handleRequest(request) {
   // 如果path为空, 即直接访问本worker
   // If visit this worker directly (no path)
   if (!path) {
-    return Response.redirect("https://zelikk.blogspot.com/search/label/Url-Shorten-Worker", 302)
+    return Response.redirect("https://orange.wastaken.xyz", 302)
     /* new Response(html404, {
       headers: {
         "content-type": "text/html;charset=UTF-8",
