@@ -45,6 +45,9 @@ img {
 .list-group-item {
   font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+.list-group-item > .form-control {
+  min-height: 8em;
+}
 /* 让 input-group 中的按钮在极窄屏幕上可以换行 */
 @media (max-width: 420px) {
   .input-group {
