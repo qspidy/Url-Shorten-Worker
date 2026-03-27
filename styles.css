@@ -57,7 +57,6 @@ img {
 
 .list-group-item>.form-control {
   min-height: 3em;
-  field-sizing: content;
 }
 
 /* 让 input-group 中的按钮在极窄屏幕上可以换行 */
